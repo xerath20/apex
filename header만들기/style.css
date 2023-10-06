@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+header {
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+}
+
+header > div {
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+    text-align: center;
+}
+
+
+header .logo {
+    float: left;
+}
+
+header .logo img {
+    height: 60px;
+    margin-top: 10px;
+}
+
+header .menu {
+    float: right;
+}
+
+header .menu li {
+    display: inline-block; 
+    margin-left: 30px;
+    margin-top: 28px;
+}
+
+
+#idx_top {
+    width: 100%;
+    padding: 150px 0;
+    background-color: #ddd;
+    background: url(img/b.jfif) no-repeat 50% 50% /cover;
+    text-align: center;
+}
+
+#idx_top strong {
+    font-size: 60px;
+    color: white;
+    letter-spacing: -2px;
+}
+
+#idx_top p {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+
+#yellow {
+    color: red;
+}
+
+#idx_board_wrap {
+    background: #ddd;
+    padding: 50px 0;
+}
+
+#idx_board_wrap > div {
+    width: 90%;
+    min-width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+.idx_board {
+    width: 48%;
+    background: #fff;
+    display: inline-block;
+}
+
+.idx_board:nth-child(even) {
+    margin-left: 4%;
+}
+
+.idx_board:nth-child(3),
+.idx_board:nth-child(4) {
+    margin-top: 40px;
+}
+
+.idx_board .title {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #aaa;
+}
+
+.idx_board .title a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.idx_board .title .name {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.idx_board .title .more {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
+
+.idx_board .title .more img {
+    width: 24px;
+    margin-left: 3px;
+}
+
+.idx_board .list {
+    padding: 20px;
+    font-size: 0;
+}
+
+.idx_board .list ul li {
+    margin-top: 10px;
+}
+
+.idx_board .list ul li:first-child {
+    margin-top: 0;
+}
+
+.idx_board .list a {
+    font-size: 14px;
+    width: 80%;
+}
+
+.idx_board .list span {
+    font-size: 12px;
+    color: #777;
+    width: 20%;
+    text-align: right;
+}
+
+.idx_board .list a,
+.idx_board .list span {
+    display: inline-block;
+    vertical-align: middle;
+}

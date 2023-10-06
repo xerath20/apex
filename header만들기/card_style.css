@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: p;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.list_wrap ul{
+    font-size: 0;
+}
+
+.list_wrap .card {
+    width: 30%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 40px;
+    box-shadow:0px 0px 5px rgba(0, 0, 0, 0.5); 
+}
+.list_wrap .card:nth-child(3n-2){
+    margin-left: 0;
+}
+.list_wrap .card:nth-child(-n+3){
+    margin-top: 0;
+}
+
+.list_wrap .card .image {
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    background-size:cover;
+}
+
+.list_wrap .card1 .image{background-image: url(img/img1.jfif)}
+.list_wrap .card2 .image{background-image: url(img/img2.jfif)}
+.list_wrap .card3 .image{background-image: url(img/img3.jfif)}
+.list_wrap .card4 .image{background-image: url(img/img4.jfif)}
+.list_wrap .card5 .image{background-image: url(img/img5.jfif)}
+.list_wrap .card6 .image{background-image: url(img/img6.jfif)}
+.list_wrap .card7 .image{background-image: url(img/img7.jfif)}
+.list_wrap .card8 .image{background-image: url(img/img8.jfif)}
+.list_wrap .card9 .image{background-image: url(img/img9.jfif)}
+
+.list_wrap .card .cont{
+    padding: 12px;
+}
+
+.list_wrap .card strong {
+    font-size: 16px;
+    letter-spacing: -1px;
+    display: block;
+    margin: 10px 0;
+}
+
+.list_wrap .card p {
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.list_wrap .card a {
+    font-size: 13px;
+    letter-spacing: -1px;
+    display: inline-block;
+    background: #eee;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+.list_wrap .card a:hover{
+    background: #325cd2;
+    color:#fff; 
+}
