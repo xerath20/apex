@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.history_wrap {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    overflow-y: auto;
+}
+
+.history_wrap::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 70%;
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: black;
+}
+
+.history_wrap .item {
+    clear: both;
+    padding-top: 40px;
+}
+
+.history_wrap .item .cont {
+    float: right;
+    width: 50%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.history_wrap .item:nth-child(even) .cont {
+    float: left;
+    padding-left: 0;
+    padding-right: 5%;
+}
+
+.history_wrap .item:nth-child(even) .image {
+    float: right;
+    padding-right: 0;
+    padding-left: 5%;
+
+}
+
+.history_wrap .item .image {
+    float: left;
+    width: 50%;
+    padding-right: 5%;
+    box-sizing: border-box;
+}
+
+.history_wrap .item .image img {
+    width: 120%;
+    border-radius: 10px;
+}
+
+.history_wrap .item .cont strong {
+    font-size: 40px;
+    color: black;
+    margin-left: 200px;
+    
+}
+
+.history_wrap .item .cont strong::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 40%;
+    display: block;
+    width: 20px;
+    height: 1px;
+    background: black;
+}
+.history_wrap .item:nth-child(even) .cont strong::before{
+    left: 135.8%;
+    right: 0;
+}
+.history_wrap .item .cont dl {
+    font-size: 0;
+    margin-top: 15px;
+    margin-left: 200px;
+}
+
+.history_wrap .item .cont dt {
+    width: 30%;
+    font-weight: 600;
+    color: #999;
+    vertical-align: top;  
+}
+
+.history_wrap .item .cont dd {
+    width: 70%;
+}
+
+.history_wrap .item .cont dt,
+.history_wrap .item .cont dd {
+    display: inline-block;
+    font-size: 14px;
+}
