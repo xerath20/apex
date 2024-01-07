@@ -105,6 +105,11 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+.tags{
+    text-align: center;
+}
+
 .tags a{
     display: inline-block;
     margin: 5px;
